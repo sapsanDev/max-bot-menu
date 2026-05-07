@@ -1,12 +1,20 @@
 {
     "name": "max-bot-menu",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "grammY-like menu system for MAX Bot API",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "type": "module",
     "scripts": {
         "build": "tsc -p tsconfig.build.json"
+    },
+    "homepage": "https://github.com/sapsanDev/max-bot-menu#readme",
+    "bugs": {
+        "url": "https://github.com/sapsanDev/max-bot-menu/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sapsanDev/max-bot-menu.git"
     },
     "keywords": [
         "max",
