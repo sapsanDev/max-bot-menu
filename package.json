@@ -1,0 +1,29 @@
+{
+    "name": "max-bot-menu",
+    "version": "0.0.1",
+    "description": "grammY-like menu system for MAX Bot API",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -p tsconfig.build.json"
+    },
+    "keywords": [
+        "max",
+        "bot",
+        "menu",
+        "telegram-like",
+        "grammy"
+    ],
+    "author": "SAPSAN",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "@maxhub/max-bot-api": "^0.2.2"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
